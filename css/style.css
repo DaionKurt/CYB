@@ -1,0 +1,765 @@
+body{
+    padding-top: 50px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    background-image: url("../img/wooden-footer.png");
+}
+
+nav{
+    vertical-align: text-bottom;
+}
+.navbar-nav>lo>a{
+    line-height: 20px;
+    color: #000;
+    border: .5em solid transparent;
+    margin: auto;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.navbar-nav>lo>a:hover{
+    text-decoration: wavy;
+}
+.navbar-nav>lo>a>pr{
+    text-shadow: 2px 0 0 #fff,
+                -2px 0 0 #fff,
+                 0 2px 0 #fff,
+                0 -2px 0 #fff,
+                 1px 1px #fff,
+             -1px -1px 0 #fff,
+              1px -1px 0 #fff,
+              -1px 1px 0 #fff;
+}
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+
+@keyframes swingingu{
+    0%{transform: translateX(50px);}
+    50%{transform: translateX(0px)}
+    100%{transform: translateX(50px);}
+}
+
+@keyframes swingingbu{
+    0%{transform: translateY(7em);}
+    50%{transform: translateY(0px)}
+    100%{transform: translateY(7em);}
+}
+
+@keyframes swinging{
+    0%{transform: translateY(7em);}
+    50%{transform: translateY(0px)}
+    100%{transform: translateY(7em);}
+}
+
+@keyframes swingingb{
+    0%{transform: translateX(200px);}
+    50%{transform: translateX(0px)}
+    100%{transform: translateX(200px);}
+}
+
+
+@keyframes swinging2{
+    0%{transform: translateX(150px);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(150px);}
+}
+
+@keyframes swinging2b{
+    0%{transform: translateX(200px);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(200px);}
+}
+
+@keyframes swinging3{
+    0%{transform: translateX(400px);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(400px);}
+}
+
+@keyframes swinging3b{
+    0%{transform: translateX(400px);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(400px);}
+}
+
+@keyframes swinging4{
+    0%{transform: translateX(500px);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(500px);}
+}
+@keyframes swinging4b{
+    0%{transform: translateX(500px);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(500px);}
+}
+
+@keyframes swingingN{
+    0%{transform: rotate(3deg);}
+    50%{transform: rotate(-3deg)}
+    100%{transform: rotate(3deg);}
+}
+
+@keyframes swingingsun{
+    0%{transform: translateY(-120px) translateX(-80px)}
+     50%{transform: translateY(-100px) translateX(-40px)}
+    100%{transform: translateY(-120px) translateX(-80px)}
+ }
+
+@keyframes swingingnub{
+    0%{transform: translateX(400px);}
+    25%{transform: translateX(-700px);}
+    100%{transform: translateX(-2500px);}
+}
+
+
+.swingimage{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging 8.5s ease-in-out forwards infinite;
+    animation: swinging 8.5s ease-in-out forwards infinite;
+}
+
+.swingimageb{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingb 18.5s ease-in-out forwards infinite;
+    animation: swingingb 18.5s ease-in-out forwards infinite;
+}
+
+.swingimageu{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingu 8.5s ease-in-out forwards infinite;
+    animation: swingingu 8.5s ease-in-out forwards infinite;
+}
+
+.swingimagebu{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingbu 18.5s ease-in-out forwards infinite;
+    animation: swingingbu 18.5s ease-in-out forwards infinite;
+}
+.swingimage2{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging2 9.5s ease-in-out forwards infinite;
+    animation: swinging2 9.5s ease-in-out forwards infinite;
+}
+
+.swingimage2b{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging2b 20.5s ease-in-out forwards infinite;
+    animation: swinging2b 20.5s ease-in-out forwards infinite;
+}
+
+.swingimage3{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging3 10.5s ease-in-out forwards infinite;
+    animation: swinging3 10.5s ease-in-out forwards infinite;
+}
+
+.swingimage3b{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging3b 22.5s ease-in-out forwards infinite;
+    animation: swinging3b 22.5s ease-in-out forwards infinite;
+}
+
+.swingimage4{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging4 14.5s ease-in-out forwards infinite;
+    animation: swinging4 14.5s ease-in-out forwards infinite;
+}
+.swingimage4b{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging4b 32.5s ease-in-out forwards infinite;
+    animation: swinging4b 32.5s ease-in-out forwards infinite;
+}
+
+/*****************************************************************/
+
+@keyframes swingingbu-movil{
+    0%{transform: rotate(1deg);}
+    50%{transform: translateX(0px)}
+    100%{transform: rotate(1deg);}
+}
+
+@keyframes swinging-movil{
+    0%{transform: rotate(1deg);}
+    50%{transform: translateX(0px)}
+    100%{transform: rotate(1deg);}
+}
+
+@keyframes swingingb-movil{
+    0%{transform: translateX(4em);}
+    50%{transform: translateX(0px)}
+    100%{transform: translateX(4em);}
+}
+
+
+@keyframes swinging2-movil{
+    0%{transform: translateX(4em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(4em);}
+}
+
+@keyframes swinging2b-movil{
+    0%{transform: translateX(4em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(4em);}
+}
+
+@keyframes swinging3-movil{
+    0%{transform: translateX(4em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(4em);}
+}
+
+@keyframes swinging3b-movil{
+    0%{transform: translateX(4em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(4em);}
+}
+
+@keyframes swinging4-movil{
+    0%{transform: translateX(4em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(4em);}
+}
+@keyframes swinging4b-movil{
+    0%{transform: translateX(4em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(4em);}
+}
+
+
+
+.swingimage-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging-movil 8.5s ease-in-out forwards infinite;
+    animation: swinging-movil 8.5s ease-in-out forwards infinite;
+}
+
+.swingimageb-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingb-movil 18.5s ease-in-out forwards infinite;
+    animation: swingingb-movil 18.5s ease-in-out forwards infinite;
+}
+
+.swingimageu-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingu-movil 8.5s ease-in-out forwards infinite;
+    animation: swingingu-movil 8.5s ease-in-out forwards infinite;
+}
+
+.swingimagebu-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingbu-movil 18.5s ease-in-out forwards infinite;
+    animation: swingingbu-movil 18.5s ease-in-out forwards infinite;
+}
+.swingimage2-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging2-movil 9.5s ease-in-out forwards infinite;
+    animation: swinging2-movil 9.5s ease-in-out forwards infinite;
+}
+
+.swingimage2b-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging2b-movil 20.5s ease-in-out forwards infinite;
+    animation: swinging2b-movil 20.5s ease-in-out forwards infinite;
+}
+
+.swingimage3-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging3-movil 10.5s ease-in-out forwards infinite;
+    animation: swinging3-movil 10.5s ease-in-out forwards infinite;
+}
+
+.swingimage3b-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging3b-movil 22.5s ease-in-out forwards infinite;
+    animation: swinging3b-movil 22.5s ease-in-out forwards infinite;
+}
+
+.swingimage4-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging4-movil 14.5s ease-in-out forwards infinite;
+    animation: swinging4-movil 14.5s ease-in-out forwards infinite;
+}
+.swingimage4b-movil{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging4b-movil 32.5s ease-in-out forwards infinite;
+    animation: swinging4b-movil 32.5s ease-in-out forwards infinite;
+}
+
+/*****************************************************************/
+
+@keyframes swingingbu-p{
+    0%{transform: rotate(1deg);}
+    50%{transform: translateX(0px)}
+    100%{transform: rotate(1deg);}
+}
+
+@keyframes swinging-p{
+    0%{transform: rotate(1deg);}
+    50%{transform: translateX(0px)}
+    100%{transform: rotate(1deg);}
+}
+
+@keyframes swingingb-p{
+    0%{transform: translateX(10em);}
+    50%{transform: translateX(0px)}
+    100%{transform: translateX(10em);}
+}
+
+
+@keyframes swinging2-p{
+    0%{transform: translateX(10em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(10em);}
+}
+
+@keyframes swinging2b-p{
+    0%{transform: translateX(10em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(10em);}
+}
+
+@keyframes swinging3-p{
+    0%{transform: translateX(10em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(10em);}
+}
+
+@keyframes swinging3b-p{
+    0%{transform: translateX(10em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(10em);}
+}
+
+@keyframes swinging4-p{
+    0%{transform: translateX(10em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(10em);}
+}
+@keyframes swinging4b-p{
+    0%{transform: translateX(10em);}
+    50%{transform: translateX(-5px)}
+    100%{transform: translateX(10em);}
+}
+
+
+
+.swingimage-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging-p 8.5s ease-in-out forwards infinite;
+    animation: swinging-p 8.5s ease-in-out forwards infinite;
+}
+
+.swingimageb-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingb-p 18.5s ease-in-out forwards infinite;
+    animation: swingingb-p 18.5s ease-in-out forwards infinite;
+}
+
+.swingimageu-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingu-p 8.5s ease-in-out forwards infinite;
+    animation: swingingu-p 8.5s ease-in-out forwards infinite;
+}
+
+.swingimagebu-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingbu-p 18.5s ease-in-out forwards infinite;
+    animation: swingingbu-p 18.5s ease-in-out forwards infinite;
+}
+.swingimage2-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging2-p 9.5s ease-in-out forwards infinite;
+    animation: swinging2-p 9.5s ease-in-out forwards infinite;
+}
+
+.swingimage2b-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging2b-p 20.5s ease-in-out forwards infinite;
+    animation: swinging2b-p 20.5s ease-in-out forwards infinite;
+}
+
+.swingimage3-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging3-p 10.5s ease-in-out forwards infinite;
+    animation: swinging3-p 10.5s ease-in-out forwards infinite;
+}
+
+.swingimage3b-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging3b-p 22.5s ease-in-out forwards infinite;
+    animation: swinging3b-p 22.5s ease-in-out forwards infinite;
+}
+
+.swingimage4-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging4-p 14.5s ease-in-out forwards infinite;
+    animation: swinging4-p 14.5s ease-in-out forwards infinite;
+}
+.swingimage4b-p{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swinging4b-p 32.5s ease-in-out forwards infinite;
+    animation: swinging4b-p 32.5s ease-in-out forwards infinite;
+}
+
+/*****************************************************************/
+
+
+.swingimagesun{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 300% 300%;
+    -webkit-animation: swingingsun 20.5s ease-in-out forwards infinite;
+    animation: swingingsun 20.5s ease-in-out forwards infinite;
+}
+
+.swingimagenub{
+    position: absolute;
+    left: 50px;
+    -webkit-transform-origin: 10% 10%;
+    transform-origin: 10% 10%;
+    -webkit-animation: swingingnub 200.5s ease-in-out forwards infinite;
+    animation: swingingnub 200.5s ease-in-out forwards infinite;
+}
+
+.swingimageshift{
+    position: relative;
+    left: 50px;
+    margin-top: 30px;
+    -webkit-transform-origin: 35% 0;
+    transform-origin: 35% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+.navbar-toggle{
+    background-color: #dc2b19;
+}
+
+.navbar-test{
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;;
+    height: auto;
+    background-color: #dc2b19;
+}
+
+.navbar-nav>li>a{
+    color: #FFF;
+}
+.navbar-nav>li>a:hover{
+    background-color: #ba2b19;
+}
+.navbar-nav>li>a:focus{
+    background-color: #ba2b19;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#menu.tope {
+    position: fixed;
+    top: 0;
+    right:0;
+    left:0;
+}
+.glyphicon{
+    height:20px;
+    float: left;
+}
+@media screen and (max-width: 375px) {
+    body {
+        overflow-x: hidden!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden!important;
+    }
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+.wrapper{
+    overflow-x: hidden; !important;
+}
+.thumbnail{
+    border-color: transparent;
+}
+.title{
+    text-shadow: 2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 992px) {
+    .title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 25px;
+    }
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#intro {
+    position: relative;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/Preloader_10.gif) center no-repeat #fff;
+}
+
+.no-padding{
+    padding: 0;
+}
+.form-wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2em 0;
+}
+.form-wrapper:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 200%;
+    height: 75%;
+    left: -7%;
+    bottom: 0;
+    z-index: 1;
+    transform:rotate(-30deg);
+}
+@media(max-width: 767px){
+    .form-wrapper:after{
+        height: 40%;
+        left: -7%;
+    }
+}
+@media(max-width: 540px){
+    .form-wrapper:after{
+        height: 25%;
+    }
+}
+@media(max-width: 340px){
+    .form-wrapper:after{
+        height: 20%;
+    }
+}
+.form-wrapper .my-form{
+    width: 90%;
+    overflow: auto;
+    margin: 0 auto;
+    background: #449caf;
+    position: relative;
+    z-index: 9;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.my-form .info{
+    padding: 15px;
+    height: 100%;
+}
+.my-form .info .carousel-caption{
+    margin: 0;
+    padding: 0;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+}
+.my-form .carousel-indicators .active{
+    background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5)
+}
+.my-form .item{
+    padding: 60px 0;
+    min-height: 300px;
+}
+.my-form .form-bg{
+    background: #fff;
+}
+.main-form .nav > li{
+    width: 50%;
+}
+.main-form .nav-tabs > li > a{
+    border-radius: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    outline: 0;
+    text-transform: uppercase;
+    color: #f17e00;
+    font-weight: 600;
+    font-size: 13px;
+}
+.main-form .nav-tabs > li > a:hover{
+    color: #f17e00;
+}
+.main-form .form-control{
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 0;
+    box-shadow: none;
+    border:1px solid #f0f0f0;
+}
+.main-form .form-control:focus{
+    border-color: #f17e00;
+}
+.main-form .checkbox{
+    margin-left: 20px;
+    color: #999;
+}
+.main-form .checkbox a{
+    color: #f17e00;
+}
+.main-form .btn-submit{
+    display: block;
+    background: #dc2b19;
+    color: #fff;
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 12px;
+}
+.main-form .tab-content{
+    padding: 30px 0;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+a:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+a.muestra_galeria {
+	padding: 0;
+    color: black;
+    text-decoration: underline;
+}
+a.muestra_galeria:hover,
+a.muestra_galeria:focus {
+    color: black;
+}
+
+.carousel-control {
+    padding-top:10%;
+    width:5%;
+}
+#carousel_thumbs .thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+#carousel_thumbs .item
+{
+	padding: 1em;
+}
+#modal_galeria h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#carousel_thumbs .caption {
+	padding: 1em;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+}

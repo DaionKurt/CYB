@@ -1,0 +1,6 @@
+RewriteEngine On
+ErrorDocument 404 /web/error404.php
+ErrorDocument 403 /web/error403.php
+DirectoryIndex index.php
+RedirectMatch 404 /\..*$
+Options All -Indexes
