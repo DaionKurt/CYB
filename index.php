@@ -9,5 +9,6 @@
 </head>
 <body>
     <?php header('Location: web/index.php')?>
+    <!--PRUEBA DE NUEVA PASS-->
 </body>
 </html>
