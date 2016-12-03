@@ -13,7 +13,8 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script src="../js/scripts.js"></script>
     <script src="../js/sucursales.js"></script>
-
+    <script src="../popup/jquery.magnific-popup.js"></script>
+    <link href="../popup/magnific-popup.css" rel="stylesheet">
     <style>
         *{
             overflow-x:hidden !important;
@@ -204,11 +205,52 @@
         </div>
         <hr>
         <div align="center" style="color: #FFF;"><h1 style="height: 50px;" class="display-3">Patrocinadores</h1></div>
-        <div class="row">
-            <div class="col-xs-3 col-md-3"><img class="img-responsive" src="http://placehold.it/170x170&text=one" alt=""></div>
-            <div class="col-xs-3 col-md-3"><img class="img-responsive" src="http://placehold.it/170x170&text=two" alt=""></div>
-            <div class="col-xs-3 col-md-3"><img class="img-responsive" src="http://placehold.it/170x170&text=three" alt=""></div>
-            <div class="col-xs-3 col-md-3"><img class="img-responsive" src="http://placehold.it/170x170&text=four" alt=""></div>
+        <div class="row no-gutter popup-gallery">
+            <div class="col-xs-4 col-lg-4 col-sm-4">
+                <div class="portfolio-box image">
+                    <img src="../img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4 col-lg-4 col-sm-4">
+                <div class="portfolio-box image">
+                    <img src="../img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4 col-lg-4 col-sm-4">
+                <div class="portfolio-box image">
+                    <img src="../img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <br><br>
     </div>

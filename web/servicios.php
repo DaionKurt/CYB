@@ -11,6 +11,7 @@
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <link href="../css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="../js/scripts.js"></script>
     <script src="../js/sucursales.js"></script>
     <style>
@@ -55,15 +56,102 @@
     <br><br><br><br><br><br><br><br><br><br><br>
 </div>
 <div class="hidden-sm hidden-md hidden-lg">
-    <br><br><br><br>
+    <br><br><br>
 </div>
 <div class="container">
-
-    <div class="hidden-md">
-        <br>
-    </div>
     <div class="row">
         <div class="col-xs-12">
+            <section id="servicios" class="" style="padding: 10px 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">Te ofrecemos los siguientes servicios</h2>
+                            <hr class="primary">
+                        </div>
+                    </div>
+                </div>
+                <div class="container" style="padding: 0 0 30px 0">
+                    <div class="row">
+                        <div class="col-xs-3 col-md-4" style="padding: 0;">
+                            <div id="mainwrapper">
+                                <!-- Image Caption 6 -->
+                                <div id="box-6" class="box">
+                                    <img class="img-responsive" id="image-6" src="../img/portfolio/thumbnails/1.jpg"/>
+                                    <span class="caption scale-caption">
+                                        <h3>Alta cocina</h3>
+                                        <p style="font-size: small">Platillos deliciosos, hechos especialmente para ti, con ingredientes
+                                        finamente seleccionados</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4" style="padding: 0;">
+                            <div id="mainwrapper">
+
+                                <!-- Image Caption 6 -->
+                                <div id="box-6" class="box">
+                                    <img class="img-responsive" id="image-6" src="../img/portfolio/thumbnails/1.jpg"/>
+                                    <span class="caption scale-caption">
+			<h3>Increíbles bebidas</h3>
+			<p style="font-size: small">Cocteles, cervezas, bebidas preparadas, con un toque costero y la hidratación
+			para acompañar tu comida</p>
+		</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-4" style="padding: 0;">
+                            <div id="mainwrapper">
+
+                                <!-- Image Caption 6 -->
+                                <div id="box-6" class="box">
+                                    <img class="img-responsive" id="image-6" src="../img/portfolio/thumbnails/1.jpg"/>
+                                    <span class="caption scale-caption">
+			<h3>Frescas instalaciones</h3>
+			<p style="font-size: small">Nuestro ambiente está basado en los ambientes de playa, relájate y disfruta</p>
+		</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="container" style="padding-bottom: 30px">
+                    <div class="row">
+                        <div class="col-xs-6 col-lg-3 col-md-6 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-wifi text-primary sr-icons"></i>
+                                <h3>Wi-Fi</h3>
+                                <p class="text-muted">Manténte conectado con nuestra red</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-lg-3 col-md-6 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-music text-primary sr-icons"></i>
+                                <h3>Música en vivo</h3>
+                                <p class="text-muted">Para hacer ameno un delicioso momento</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-lg-3 col-md-6 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-credit-card-alt text-primary sr-icons"></i>
+                                <h3>Bienvenidas, tarjetas</h3>
+                                <p class="text-muted">Aceptamos pagos con tarjetas de crédito y débito</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-lg-3 col-md-6 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-universal-access text-primary sr-icons"></i>
+                                <h3>Somos incluyentes</h3>
+                                <p class="text-muted">Aquí todos son bienvenidos, sin importar qué</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--
             <div class="form-wrapper">
                 <div class="my-form">
                     <div class="col-sm-6 form-bg">
@@ -140,6 +228,7 @@
                     </div>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </div>

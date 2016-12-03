@@ -14,12 +14,12 @@
     <script src="../js/scripts.js"></script>
     <script src="../js/sucursales.js"></script>
 </head>
-<body>
+<body class="animate-bg">
 <div class="se-pre-con"></div>
 
 <?php require('headersecundario.php')?>
 
-<div class="container">
+<div class="container" style="background-color: white; opacity: 0.85; border-radius: 50;">
 
     <div class="row">
         <div class="col-lg-12">
@@ -47,21 +47,21 @@
             <h2 class="page-header">Nuestro equipo</h2>
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
-            <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+            <img class="img-circle img-responsive img-center" src="http://lorempixel.com/200/200/people/6/" alt="">
             <h3>Nombre Genérico
                 <small>Función</small>
             </h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe vitae corporis, aspernatur. </p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
-            <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+            <img class="img-circle img-responsive img-center" src="http://lorempixel.com/200/200/people/5/" alt="">
             <h3>Nombre Genérico
                 <small>Función</small>
             </h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe vitae corporis, aspernatur. </p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
-            <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+            <img class="img-circle img-responsive img-center" src="http://lorempixel.com/200/200/people/9/" alt="">
             <h3>Nombre Genérico
                 <small>Función</small>
             </h3>

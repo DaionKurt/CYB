@@ -763,3 +763,316 @@ nav{
 a:hover{
     text-decoration: none;
 }
+
+.service-box p {
+    margin-bottom: 0;
+}
+.portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.portfolio-box .portfolio-box-caption {
+    color: white;
+    opacity: 0;
+    display: block;
+    background: rgba(240, 95, 64, 0.9);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    padding: 0 15px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+.portfolio-box:focus {
+    outline: none;
+}
+@media (min-width: 768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+.call-to-action h2 {
+    margin: 0 auto 20px;
+}
+.text-primary {
+    color: #F05F40;
+}
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.text-faded {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-right: 15px;
+}
+
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+
+
+
+#mainwrapper {
+    font: 10pt normal Arial, sans-serif;
+    height: auto;
+    text-align: center;
+    width: 660px;
+}
+
+/* Image Box Style */
+#mainwrapper .box {
+    border: 5px solid #fff;
+    cursor: pointer;
+    height: 182px;
+    float: left;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+#mainwrapper .box img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+/* Caption Common Style */
+#mainwrapper .box .caption {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+}
+
+
+/** Caption 1: Simple **/
+#mainwrapper .box .simple-caption {
+    height: 30px;
+    width: 200px;
+    display: block;
+    bottom: -30px;
+    line-height: 25pt;
+    text-align: center;
+}
+
+/** Caption 2: Full Width & Height **/
+#mainwrapper .box .full-caption {
+    width: 250px;
+    height: 170px;
+    top: -200px;
+    text-align: left;
+    padding: 15px;
+}
+
+/** Caption 3: Fade **/
+#mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption  {
+    opacity: 0;
+    width: 250px;
+    height: 175px;
+    text-align: left;
+    padding: 15px;
+}
+
+/** Caption 4: Slide **/
+#mainwrapper .box .slide-caption {
+    width: 250px;
+    height: 170px;
+    text-align: left;
+    padding: 15px;
+    left: 200px;
+}
+
+/** Caption 5: Rotate **/
+#mainwrapper #box-5.box .rotate-caption {
+    width: 250px;
+    height: 170px;
+    text-align: left;
+    padding: 15px;
+    top: 200px;
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+#mainwrapper .box .rotate {
+    width: 200px;
+    height: 400px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+/** Caption 6: Scale **/
+#mainwrapper .box .scale-caption h3, #mainwrapper .box .scale-caption p {
+    position: relative;
+    left: -200px;
+    width: 220px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+#mainwrapper .box .scale-caption h3 {
+    -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    -ms-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+#mainwrapper .box .scale-caption p {
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    -ms-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
+
+/** Simple Caption :hover Behaviour **/
+#mainwrapper .box:hover .simple-caption {
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+/** Full Caption :hover Behaviour **/
+#mainwrapper .box:hover .full-caption {
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    opacity: 1;
+    transform: translateY(100%);
+}
+
+/** Fade Caption :hover Behaviour **/
+#mainwrapper .box:hover .fade-caption, #mainwrapper .box:hover .scale-caption  {
+    opacity: 1;
+}
+
+
+/** Scale Caption :hover Behaviour **/
+#mainwrapper .box:hover #image-6 {
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+#mainwrapper .box:hover .scale-caption h3, #mainwrapper .box:hover .scale-caption p {
+    -moz-transform: translateX(200px);
+    -o-transform: translateX(200px);
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+}
+
+
+.fa-wifi{
+    -webkit-transition: 1s 3s time;
+    -moz-transition: 1s 3s time;
+    -ms-transition: 1s 3s time;
+    -o-transition: 1s 3s time;
+    transition: 1s 3s time;;
+}
+
+.fa-wifi:hover {
+    color: #5482a8;
+}
+
+.fa-music:hover {
+    color: #33a857;
+    transition-delay:1s;
+}
+
+.fa-credit-card-alt:hover {
+    color: #f17e00;
+    transition-delay:1s;
+}
+
+.fa-universal-access:hover {
+    color: #a8964e;
+    transition-delay:1s;
+}
+
+.maint{
+    background: url("../img/crd.png") no-repeat left bottom fixed;
+    background-size: cover;
+}
+.animate-bg{
+    background: url("../img/ocwat.gif") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    width:100%;
+    height:auto;
+    top:0;
+    left:0;
+}
