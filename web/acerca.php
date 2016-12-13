@@ -4,7 +4,7 @@
     <link rel="icon" type="image/png" href="../img/logo.png"/>
     <meta charset="UTF-8">
     <title>Chiles & Beer - Franquicias</title>
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -23,7 +23,7 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Acerca de nosotros
+            <h1 class="page-header">Acerca de nosotros <div class="hidden-md hidden-lg"><br></div>
                 <small>Es un gusto conocerte</small>
             </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>

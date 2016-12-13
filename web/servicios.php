@@ -72,7 +72,7 @@
                 </div>
                 <div class="container" style="padding: 0 0 30px 0">
                     <div class="row">
-                        <div class="col-xs-3 col-md-4" style="padding: 0;">
+                        <div class="col-xs-12 col-md-4" style="padding: 0;">
                             <div id="mainwrapper">
                                 <!-- Image Caption 6 -->
                                 <div id="box-6" class="box">
@@ -85,7 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-3 col-md-4" style="padding: 0;">
+                        <div class="col-xs-12 col-md-4" style="padding: 0;">
                             <div id="mainwrapper">
 
                                 <!-- Image Caption 6 -->
@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-3 col-md-4" style="padding: 0;">
+                        <div class="col-xs-12 col-md-4" style="padding: 0;">
                             <div id="mainwrapper">
 
                                 <!-- Image Caption 6 -->

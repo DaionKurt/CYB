@@ -9,6 +9,7 @@ footer{
 
 nav{
     vertical-align: text-bottom;
+    position: absolute;
 }
 .navbar-nav>lo>a{
     line-height: 20px;
@@ -31,500 +32,59 @@ nav{
               1px -1px 0 #fff,
               -1px 1px 0 #fff;
 }
-@-webkit-keyframes swinging{
-    0%{-webkit-transform: rotate(10deg);}
-    50%{-webkit-transform: rotate(-5deg)}
-    100%{-webkit-transform: rotate(10deg);}
-}
-
-@keyframes swingingu{
-    0%{transform: translateX(50px);}
-    50%{transform: translateX(0px)}
-    100%{transform: translateX(50px);}
-}
-
-@keyframes swingingbu{
-    0%{transform: translateY(7em);}
-    50%{transform: translateY(0px)}
-    100%{transform: translateY(7em);}
-}
-
-@keyframes swinging{
-    0%{transform: translateY(7em);}
-    50%{transform: translateY(0px)}
-    100%{transform: translateY(7em);}
-}
-
-@keyframes swingingb{
-    0%{transform: translateX(200px);}
-    50%{transform: translateX(0px)}
-    100%{transform: translateX(200px);}
-}
-
-
-@keyframes swinging2{
-    0%{transform: translateX(150px);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(150px);}
-}
-
-@keyframes swinging2b{
-    0%{transform: translateX(200px);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(200px);}
-}
-
-@keyframes swinging3{
-    0%{transform: translateX(400px);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(400px);}
-}
-
-@keyframes swinging3b{
-    0%{transform: translateX(400px);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(400px);}
-}
-
-@keyframes swinging4{
-    0%{transform: translateX(500px);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(500px);}
-}
-@keyframes swinging4b{
-    0%{transform: translateX(500px);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(500px);}
-}
-
-@keyframes swingingN{
-    0%{transform: rotate(3deg);}
-    50%{transform: rotate(-3deg)}
-    100%{transform: rotate(3deg);}
-}
-
-@keyframes swingingsun{
-    0%{transform: translateY(-120px) translateX(-80px)}
-     50%{transform: translateY(-100px) translateX(-40px)}
-    100%{transform: translateY(-120px) translateX(-80px)}
- }
-
-@keyframes swingingnub{
-    0%{transform: translateX(400px);}
-    25%{transform: translateX(-700px);}
-    100%{transform: translateX(-2500px);}
-}
-
 
 .swingimage{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging 8.5s ease-in-out forwards infinite;
-    animation: swinging 8.5s ease-in-out forwards infinite;
-}
-
-.swingimageb{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingb 18.5s ease-in-out forwards infinite;
-    animation: swingingb 18.5s ease-in-out forwards infinite;
-}
-
-.swingimageu{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingu 8.5s ease-in-out forwards infinite;
-    animation: swingingu 8.5s ease-in-out forwards infinite;
-}
-
-.swingimagebu{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingbu 18.5s ease-in-out forwards infinite;
-    animation: swingingbu 18.5s ease-in-out forwards infinite;
+    -webkit-animation: swinging 3.5s ease-out forwards;
+    animation: swinging 3.5s ease-out forwards;
 }
 .swingimage2{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging2 9.5s ease-in-out forwards infinite;
-    animation: swinging2 9.5s ease-in-out forwards infinite;
+    -webkit-animation: swinging2 3.5s ease-out forwards;
+    animation: swinging2 3.5s ease-out forwards;
 }
-
-.swingimage2b{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging2b 20.5s ease-in-out forwards infinite;
-    animation: swinging2b 20.5s ease-in-out forwards infinite;
+.swingimage2s{
+    -webkit-animation: swinging2s 3.5s ease-out forwards;
+    animation: swinging2s 3.5s ease-out forwards;
 }
-
 .swingimage3{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging3 10.5s ease-in-out forwards infinite;
-    animation: swinging3 10.5s ease-in-out forwards infinite;
+    -webkit-animation: swinging3 3.5s ease-out forwards;
+    animation: swinging3 3.5s ease-out forwards;
 }
 
-.swingimage3b{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging3b 22.5s ease-in-out forwards infinite;
-    animation: swinging3b 22.5s ease-in-out forwards infinite;
+@-webkit-keyframes swinging {
+    from {left: -60%;}
+    to {left: -10%;}
 }
 
-.swingimage4{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging4 14.5s ease-in-out forwards infinite;
-    animation: swinging4 14.5s ease-in-out forwards infinite;
+@keyframes swinging {
+    from {left: -60%;}
+    to {left: -10%;}
 }
-.swingimage4b{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging4b 32.5s ease-in-out forwards infinite;
-    animation: swinging4b 32.5s ease-in-out forwards infinite;
+@-webkit-keyframes swinging2 {
+    from { left: -60%;}
+    to {left: 35%;}
 }
 
-/*****************************************************************/
-
-@keyframes swingingbu-movil{
-    0%{transform: rotate(1deg);}
-    50%{transform: translateX(0px)}
-    100%{transform: rotate(1deg);}
+@keyframes swinging2 {
+    from {left: -60%;}
+    to {left: 35%;}
+}
+@-webkit-keyframes swinging2s {
+    from { left: -60%;}
+    to {left: 15%;}
 }
 
-@keyframes swinging-movil{
-    0%{transform: rotate(1deg);}
-    50%{transform: translateX(0px)}
-    100%{transform: rotate(1deg);}
+@keyframes swinging2s {
+    from {left: -60%;}
+    to {left: 15%;}
+}
+@-webkit-keyframes swinging3 {
+    from { right: -60%;}
+    to {right: 0%;}
 }
 
-@keyframes swingingb-movil{
-    0%{transform: translateX(4em);}
-    50%{transform: translateX(0px)}
-    100%{transform: translateX(4em);}
-}
-
-
-@keyframes swinging2-movil{
-    0%{transform: translateX(4em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(4em);}
-}
-
-@keyframes swinging2b-movil{
-    0%{transform: translateX(4em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(4em);}
-}
-
-@keyframes swinging3-movil{
-    0%{transform: translateX(4em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(4em);}
-}
-
-@keyframes swinging3b-movil{
-    0%{transform: translateX(4em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(4em);}
-}
-
-@keyframes swinging4-movil{
-    0%{transform: translateX(4em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(4em);}
-}
-@keyframes swinging4b-movil{
-    0%{transform: translateX(4em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(4em);}
-}
-
-
-
-.swingimage-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging-movil 8.5s ease-in-out forwards infinite;
-    animation: swinging-movil 8.5s ease-in-out forwards infinite;
-}
-
-.swingimageb-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingb-movil 18.5s ease-in-out forwards infinite;
-    animation: swingingb-movil 18.5s ease-in-out forwards infinite;
-}
-
-.swingimageu-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingu-movil 8.5s ease-in-out forwards infinite;
-    animation: swingingu-movil 8.5s ease-in-out forwards infinite;
-}
-
-.swingimagebu-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingbu-movil 18.5s ease-in-out forwards infinite;
-    animation: swingingbu-movil 18.5s ease-in-out forwards infinite;
-}
-.swingimage2-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging2-movil 9.5s ease-in-out forwards infinite;
-    animation: swinging2-movil 9.5s ease-in-out forwards infinite;
-}
-
-.swingimage2b-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging2b-movil 20.5s ease-in-out forwards infinite;
-    animation: swinging2b-movil 20.5s ease-in-out forwards infinite;
-}
-
-.swingimage3-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging3-movil 10.5s ease-in-out forwards infinite;
-    animation: swinging3-movil 10.5s ease-in-out forwards infinite;
-}
-
-.swingimage3b-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging3b-movil 22.5s ease-in-out forwards infinite;
-    animation: swinging3b-movil 22.5s ease-in-out forwards infinite;
-}
-
-.swingimage4-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging4-movil 14.5s ease-in-out forwards infinite;
-    animation: swinging4-movil 14.5s ease-in-out forwards infinite;
-}
-.swingimage4b-movil{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging4b-movil 32.5s ease-in-out forwards infinite;
-    animation: swinging4b-movil 32.5s ease-in-out forwards infinite;
-}
-
-/*****************************************************************/
-
-@keyframes swingingbu-p{
-    0%{transform: rotate(1deg);}
-    50%{transform: translateX(0px)}
-    100%{transform: rotate(1deg);}
-}
-
-@keyframes swinging-p{
-    0%{transform: rotate(1deg);}
-    50%{transform: translateX(0px)}
-    100%{transform: rotate(1deg);}
-}
-
-@keyframes swingingb-p{
-    0%{transform: translateX(10em);}
-    50%{transform: translateX(0px)}
-    100%{transform: translateX(10em);}
-}
-
-
-@keyframes swinging2-p{
-    0%{transform: translateX(10em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(10em);}
-}
-
-@keyframes swinging2b-p{
-    0%{transform: translateX(10em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(10em);}
-}
-
-@keyframes swinging3-p{
-    0%{transform: translateX(10em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(10em);}
-}
-
-@keyframes swinging3b-p{
-    0%{transform: translateX(10em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(10em);}
-}
-
-@keyframes swinging4-p{
-    0%{transform: translateX(10em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(10em);}
-}
-@keyframes swinging4b-p{
-    0%{transform: translateX(10em);}
-    50%{transform: translateX(-5px)}
-    100%{transform: translateX(10em);}
-}
-
-
-
-.swingimage-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging-p 8.5s ease-in-out forwards infinite;
-    animation: swinging-p 8.5s ease-in-out forwards infinite;
-}
-
-.swingimageb-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingb-p 18.5s ease-in-out forwards infinite;
-    animation: swingingb-p 18.5s ease-in-out forwards infinite;
-}
-
-.swingimageu-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingu-p 8.5s ease-in-out forwards infinite;
-    animation: swingingu-p 8.5s ease-in-out forwards infinite;
-}
-
-.swingimagebu-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingbu-p 18.5s ease-in-out forwards infinite;
-    animation: swingingbu-p 18.5s ease-in-out forwards infinite;
-}
-.swingimage2-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging2-p 9.5s ease-in-out forwards infinite;
-    animation: swinging2-p 9.5s ease-in-out forwards infinite;
-}
-
-.swingimage2b-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging2b-p 20.5s ease-in-out forwards infinite;
-    animation: swinging2b-p 20.5s ease-in-out forwards infinite;
-}
-
-.swingimage3-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging3-p 10.5s ease-in-out forwards infinite;
-    animation: swinging3-p 10.5s ease-in-out forwards infinite;
-}
-
-.swingimage3b-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging3b-p 22.5s ease-in-out forwards infinite;
-    animation: swinging3b-p 22.5s ease-in-out forwards infinite;
-}
-
-.swingimage4-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging4-p 14.5s ease-in-out forwards infinite;
-    animation: swinging4-p 14.5s ease-in-out forwards infinite;
-}
-.swingimage4b-p{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swinging4b-p 32.5s ease-in-out forwards infinite;
-    animation: swinging4b-p 32.5s ease-in-out forwards infinite;
-}
-
-/*****************************************************************/
-
-
-.swingimagesun{
-    overflow-x: hidden; !important;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 300% 300%;
-    -webkit-animation: swingingsun 20.5s ease-in-out forwards infinite;
-    animation: swingingsun 20.5s ease-in-out forwards infinite;
-}
-
-.swingimagenub{
-    position: absolute;
-    left: 50px;
-    -webkit-transform-origin: 10% 10%;
-    transform-origin: 10% 10%;
-    -webkit-animation: swingingnub 200.5s ease-in-out forwards infinite;
-    animation: swingingnub 200.5s ease-in-out forwards infinite;
-}
-
-.swingimageshift{
-    position: relative;
-    left: 50px;
-    margin-top: 30px;
-    -webkit-transform-origin: 35% 0;
-    transform-origin: 35% 0;
-    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
-    animation: swinging 3.5s ease-in-out forwards infinite;
+@keyframes swinging3 {
+    from {right: -60%;}
+    to {right: 0%;}
 }
 .navbar-toggle{
     background-color: #dc2b19;
@@ -865,7 +425,7 @@ a:hover{
     font: 10pt normal Arial, sans-serif;
     height: auto;
     text-align: center;
-    width: 660px;
+    width: 100%;
 }
 
 /* Image Box Style */
@@ -874,10 +434,9 @@ a:hover{
     cursor: pointer;
     height: 182px;
     float: left;
-    margin: 5px;
     position: relative;
     overflow: hidden;
-    width: 350px;
+    width: 100%;
     -webkit-box-shadow: 1px 1px 1px 1px #ccc;
     -moz-box-shadow: 1px 1px 1px 1px #ccc;
     box-shadow: 1px 1px 1px 1px #ccc;
@@ -885,6 +444,8 @@ a:hover{
 #mainwrapper .box img {
     position: absolute;
     left: 0;
+    width: 100%;
+
     -webkit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
@@ -1049,21 +610,22 @@ a:hover{
 
 .fa-music:hover {
     color: #33a857;
-    transition-delay:1s;
 }
 
 .fa-credit-card-alt:hover {
     color: #f17e00;
-    transition-delay:1s;
 }
 
 .fa-universal-access:hover {
     color: #a8964e;
-    transition-delay:1s;
 }
 
 .maint{
     background: url("../img/crd.png") no-repeat left bottom fixed;
+    background-size: cover;
+}
+.mainy{
+    background: url("../img/crus.png") no-repeat left bottom fixed;
     background-size: cover;
 }
 .animate-bg{
@@ -1075,4 +637,260 @@ a:hover{
     height:auto;
     top:0;
     left:0;
+}
+video#bgvid {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -100;
+     -ms-transform: translateX(-50%) translateY(-47%);
+     -moz-transform: translateX(-50%) translateY(-47%);
+     -webkit-transform: translateX(-50%) translateY(-47%);
+     transform: translateX(-50%) translateY(-47%);
+     background-size: cover;
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+ }
+.navbar-default {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.05);
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+    color: #F05F40;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+}
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    color: #222222;
+    text-transform: uppercase;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: #222222;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+    color: #F05F40;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+    color: #F05F40 !important;
+    background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+    background-color: transparent;
+}
+@media (min-width: 1000px) {
+    .navbar-default {
+        background: #ffffff; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left,rgba(255,0,0,0), rgb(255, 255, 255)); /*Safari 5.1-6*/
+        background: -o-linear-gradient(right,rgba(255,0,0,0), rgb(255, 255, 255)); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(right,rgba(255,0,0,0), rgb(255, 255, 255)); /*Fx 3.6-15*/
+        background: linear-gradient(to right, rgba(255,0,0,0) 80%, rgb(255, 255, 255) 90%); /*Standard*/
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: white;
+    }
+    .navbar-default .nav > li > a,
+    .navbar-default .nav > li > a:focus {
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .navbar-default .nav > li > a:hover,
+    .navbar-default .nav > li > a:focus:hover {
+        color: white;
+    }
+    .navbar-default.affix {
+        background-color: white;
+        border-color: rgba(34, 34, 34, 0.05);
+    }
+    .navbar-default.affix .navbar-header .navbar-brand {
+        color: #F05F40;
+        font-size: 14px;
+    }
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+    .navbar-default.affix .nav > li > a,
+    .navbar-default.affix .nav > li > a:focus {
+        color: #222222;
+    }
+    .navbar-default.affix .nav > li > a:hover,
+    .navbar-default.affix .nav > li > a:focus:hover {
+        color: #F05F40;
+    }
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+
+}
+header .header-content {
+    position: relative;
+    text-align: center;
+    padding: 100px 15px 100px;
+    width: 100%;
+}
+header .header-content .header-content-inner h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+    header {
+        min-height: 100%;
+    }
+    header .header-content {
+        position: absolute;
+        top: 45%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0;
+        webkit-box-sizing: content-box !important;
+        -moz-box-sizing: content-box !important;
+        box-sizing: content-box !important;
+    }
+    header .header-content .header-content-inner {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .header-content .header-content-inner h1 {
+        font-size: 50px;
+    }
+    header .header-content .header-content-inner p {
+        font-size: 18px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.swingimagesun{
+    overflow-x: hidden; !important;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: -600% -600%;
+    -webkit-animation: swingingsun 20.5s ease-in-out forwards infinite;
+    animation: swingingsun 20.5s ease-in-out forwards infinite;
+}
+
+@keyframes swingingsun{
+    0%{transform: translateY(-120px) translateX(-80px)}
+    50%{transform: translateY(-100px) translateX(-40px)}
+    100%{transform: translateY(-120px) translateX(-80px)}
+}
+.btn-primary {
+    color: white;
+    background-color: #F05F40;
+    border-color: #F05F40;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #ee4b28;
+    border-color: #ed431f;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #F05F40;
+    border-color: #F05F40;
+}
+.btn-primary .badge {
+    color: #F05F40;
+    background-color: white;
+}
+.btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn-xl {
+    padding: 15px 30px;
+}
+.fadein{
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation: fadein 4.5s ease-out ;
+    animation: fadein 4.5s ease-out;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity:0;}
+    to {opacity: 1;}
 }

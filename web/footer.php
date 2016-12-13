@@ -19,10 +19,10 @@ echo '<footer>
                     <div class="hidden-sm">
                         <div class="row">
                             <div class="col-md-12">
-                                <p style="text-align: center;"><a href="" style="color: #acacac;"><strong>Aviso de privacidad</strong></a></p>
+                                <p style="text-align: center;"><a href="privacidad.php" style="color: #acacac;"><strong>Aviso de privacidad</strong></a></p>
                             </div>
                             <div class="col-md-12">
-                                <p style="text-align: center;"><a href="" style="color: #acacac;"><strong>Términos y condiciones</strong></a></p>
+                                <p style="text-align: center;"><a href="terminos.php" style="color: #acacac;"><strong>Términos y condiciones</strong></a></p>
                             </div>
                         </div>
                     </div>

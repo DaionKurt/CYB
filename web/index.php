@@ -15,12 +15,11 @@
     <script src="../js/sucursales.js"></script>
     <script src="../popup/jquery.magnific-popup.js"></script>
     <link href="../popup/magnific-popup.css" rel="stylesheet">
+
     <style>
-        *{
-            overflow-x:hidden !important;
-        }
+
         body {
-            background-image: url(../img/bg40.png), url(../img/bg6.png);
+            background-image: url(../img/b.png), url(../img/bg6.png);
             -webkit-background-size: 100% auto;
             background-size: 100% auto;
             background-position: center top;
@@ -28,22 +27,24 @@
         }
         @media (min-width: 400px) {
             body {
-                background-image: url(../img/bg40.png), url(../img/bg6.png); <!-- Plus -->
+                background-image: url(../img/b.png), url(../img/bg6.png); <!-- Plus -->
             }
         }
 
         @media (min-width: 500px) {
             body {
-                background-image: url(../img/bg39.png), url(../img/bg6.png); <!-- Ipad -->
+                background-image: url(../img/b.png), url(../img/bg6.png); <!-- Ipad -->
             }
         }
 
         @media (min-width: 1000px) {
             body {
-                background-image: url(../img/bg41.png), url(../img/bg6.png);   <!-- Medium -->
+                background-image: url(../img/b.png), url(../img/bg6.png);   <!-- Medium -->
             }
         }
-
+        body{
+            padding: 0;
+        }
     </style>
 </head>
 <body>
@@ -80,23 +81,54 @@
 
 -->
     <?php require('header.php')?>
+<script type="text/javascript">
+    $(function(){
+        $(window).resize(function(){
+            $('.videobg').css({
+                height:$(window).height()*2,
+                width:($(window).height()*1.77)
+            })
+            //casos especiales
+            if($('.videobg').outerWidth()<$(window).width() && $('.videobg').outerHeight()==$(window).height()){
+                //altura OK, ancho no suficiente, crezco en base al ancho
+                $('.videobg').css({
+                    height:$(window).width()/1.77777,
+                    width:($(window).width())
+                })
+            }
+            if($('.videobg').outerWidth()>$(window).width()){
+                //ancho video mayor que el ancho de la ventana, centrar
+                $('.videobg').css({
+                    'margin-left':-(($('.videobg').outerWidth()-$(window).width())/2)
+                })
+            }else{
+                //ancho video igual que de la ventana, sin centrar
+                $('.videobg').css({
+                    'margin-left':0
+                })
+            }
+        });
+        $(window).resize();
+    });
+</script>
 
 
 <div class="container">
-    <div class="hidden-xs hidden-sm hidden-md">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-    <div class="hidden-xs hidden-sm hidden-lg">
-        <br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-    <div class="hidden-xs hidden-md hidden-lg">
-        <br><br><br><br><br><br><br><br><br><br>
-    </div>
-    <div class="hidden-sm hidden-md hidden-lg">
-        <br><br><br><br><br>
-    </div>
-        
-        <div align="center" style="color: #FFF;"><h1 style="height: 50px;" class="display-3">Promociones</h1></div>
+    <script>
+        $("#btnContinue").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#promo").offset().top
+            }, 1000);
+        });
+    </script>
+        <div id="promo" align="center" style="color: #FFF; padding-top:35px"><h1 style="height: 50px;" class="display-3">Promociones</h1></div>
+    <script>
+        $("#btnContinue").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#promo").offset().top
+            }, 1000);
+        });
+    </script>
         <div id="main_area">
             <!-- Slider -->
             <div class="row">
@@ -106,22 +138,22 @@
                             <div class="carousel slide" id="myCarousel">
                                 <div class="carousel-inner">
                                     <div class="active item" data-slide-number="0">
-                                        <img src="http://placehold.it/770x300"></div>
+                                        <img src="http://lorempixel.com/770/300/food/1/"></div>
 
                                     <div class="item" data-slide-number="1">
-                                        <img src="http://placehold.it/770x300"></div>
+                                        <img src="http://lorempixel.com/770/300/food/2/"></div>
 
                                     <div class="item" data-slide-number="2">
-                                        <img src="http://placehold.it/770x300"></div>
+                                        <img src="http://lorempixel.com/770/300/food/3/"></div>
 
                                     <div class="item" data-slide-number="3">
-                                        <img src="http://placehold.it/770x300"></div>
+                                        <img src="http://lorempixel.com/770/300/food/4/"></div>
 
                                     <div class="item" data-slide-number="4">
-                                        <img src="http://placehold.it/770x300"></div>
+                                        <img src="http://lorempixel.com/770/300/food/5/"></div>
 
                                     <div class="item" data-slide-number="5">
-                                        <img src="http://placehold.it/770x300"></div>
+                                        <img src="http://lorempixel.com/770/300/food/6/"></div>
                                 </div>
                                 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                                     <span class="glyphicon glyphicon-chevron-left" style="height: 50px;"></span>
@@ -178,27 +210,27 @@
             <div class="row hidden-xs" id="slider-thumbs">
                 <ul class="hide-bullets">
                     <li class="col-sm-2">
-                        <a class="thumbnail" id="carousel-selector-0"><img src="http://placehold.it/170x100"></a>
+                        <a class="thumbnail" id="carousel-selector-0"><img src="http://lorempixel.com/170/100/food/1/"></a>
                     </li>
 
                     <li class="col-sm-2">
-                        <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/170x100"></a>
+                        <a class="thumbnail" id="carousel-selector-1"><img src="http://lorempixel.com/170/100/food/2/"></a>
                     </li>
 
                     <li class="col-sm-2">
-                        <a class="thumbnail" id="carousel-selector-2"><img src="http://placehold.it/170x100"></a>
+                        <a class="thumbnail" id="carousel-selector-2"><img src="http://lorempixel.com/170/100/food/3/"></a>
                     </li>
 
                     <li class="col-sm-2">
-                        <a class="thumbnail" id="carousel-selector-3"><img src="http://placehold.it/170x100"></a>
+                        <a class="thumbnail" id="carousel-selector-3"><img src="http://lorempixel.com/170/100/food/4/"></a>
                     </li>
 
                     <li class="col-sm-2">
-                        <a class="thumbnail" id="carousel-selector-4"><img src="http://placehold.it/170x100"></a>
+                        <a class="thumbnail" id="carousel-selector-4"><img src="http://lorempixel.com/170/100/food/5/"></a>
                     </li>
 
                     <li class="col-sm-2">
-                        <a class="thumbnail" id="carousel-selector-5"><img src="http://placehold.it/170x100"></a>
+                        <a class="thumbnail" id="carousel-selector-5"><img src="http://lorempixel.com/170/100/food/6/"></a>
                     </li>
                 </ul>
             </div>
@@ -206,45 +238,45 @@
         <hr>
         <div align="center" style="color: #FFF;"><h1 style="height: 50px;" class="display-3">Patrocinadores</h1></div>
         <div class="row no-gutter popup-gallery">
-            <div class="col-xs-4 col-lg-4 col-sm-4">
+            <div class="col-xs-4 col-lg-4 col-sm-4 col-xs-12">
                 <div class="portfolio-box image">
-                    <img src="../img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <img src="../img/tumbtest2.png" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                                 Category
-                            </div>
-                            <div class="project-name">
+                        </div>
+                        <div class="project-name hidden-xs">
                                 Project Name
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4 col-lg-4 col-sm-4">
+            <div class="col-xs-4 col-lg-4 col-sm-4 col-xs-12">
                 <div class="portfolio-box image">
-                    <img src="../img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    <img src="../img/tumbtest1.png" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                                 Category
                             </div>
-                            <div class="project-name">
+                            <div class="project-name hidden-xs">
                                 Project Name
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4 col-lg-4 col-sm-4">
+            <div class="col-xs-4 col-lg-4 col-sm-4 col-xs-12">
                 <div class="portfolio-box image">
-                    <img src="../img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                    <img src="../img/tumbtest.png" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                                 Category
                             </div>
-                            <div class="project-name">
+                            <div class="project-name hidden-xs">
                                 Project Name
                             </div>
                         </div>
@@ -255,5 +287,8 @@
         <br><br>
     </div>
     <?php require("footer.php"); ?>
+<script src="../js/scrollreveal.min.js"></script>
+<script src="../js/creative.min.js"></script>
+
 </body>
 </html>
