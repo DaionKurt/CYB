@@ -78,13 +78,18 @@
                                             <div class="tab-content">
                                                 <div role="tabpanel" class="tab-pane active" id="login">
                                                     <p>Ansiamos conocer tus dudas, quejas o sugerencias</p>
-                                                    <form action="" method="get" accept-charset="utf-8">
-                                                        <input class="form-control" type="email" name="email" id="email" value="" placeholder="Correo electrónico">
-                                                        <input class="form-control" type="password" name="asunto" id="asunto" value="" placeholder="Asunto">
+                                                    <form id="formulario-contacto" method="post" action="send_mail.php" accept-charset="utf-8">
+                                                        <input class="form-control" type="email" name="email" id="email" value="" placeholder="Correo electrónico" required >
+                                                        <input class="form-control" type="text" name="asunto" id="asunto" value="" placeholder="Asunto" required >
                                                         <span><br>Comentarios</span>
-                                                        <textarea class="form-control" name="mensaje" rows="10" id="mensaje" style="height: 100px;"></textarea>
-
-                                                        <input class="btn btn-submit" type="submit" name="" value="Enviar">
+                                                        <textarea class="form-control" name="mensaje" rows="10" id="mensaje" required style="height: 100px;"required></textarea>
+                                                        <div align="center">
+                                                            <input class="btn btn-default btn-xl sr-button" type="submit" name="submit" id="submit" value="Enviar mensaje"  style="background-color: #dc2b19;color: #ffffff;">
+                                                        </div>
+                                                        <div class="alert fade in" id="alert-mail" style="display: none;">
+                                                            <a href="#" class="close" aria-label="cerrar">&times;</a>
+                                                            <span class="alert-content"></span>
+                                                        </div>
                                                     </form>
                                                 </div>
                                             </div>

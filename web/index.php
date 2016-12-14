@@ -226,8 +226,7 @@
     </div>
 </div>
 -->
-<div id="promo" style=" background-color: #F05F40;z-index:100000;margin:285px 0 0 0;width:100%;height: 100%">
-</div>
+
 <div class="container algt">
     <script>
         $("#btnContinue").click(function() {
@@ -236,7 +235,7 @@
             }, 1000);
         });
     </script>
-        <div align="center" style="color: #FFF; padding-top:70px"><h1 style="height: 50px;" class="display-3">Promociones</h1></div>
+        <div id="promo" align="center" style="color: #FFF; padding-top:70px"><h1 style="height: 50px;" class="display-3">Promociones</h1></div>
     <script>
         $("#btnContinue").click(function() {
             $('html, body').animate({
