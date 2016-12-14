@@ -17,7 +17,7 @@
     <script src="../js/scripts.js"></script>
     <script src="../js/sucursales.js"></script>
 </head>
-<body>
+<body class="gult">
 <div class="se-pre-con"></div>
 
 <?php require('headersecundario.php')?>

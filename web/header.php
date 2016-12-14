@@ -25,7 +25,10 @@ echo '
                         <li><a href="franquicias.php"><span class="glyphicon glyphicon-briefcase"></span> &nbsp;Franquicias</a></li>
                         <li><a href="acerca.php"><span class="glyphicon glyphicon-info-sign"></span> &nbsp;Acerca de</a></li>
                         <li><a href="contacto.php"><span class="glyphicon glyphicon-envelope"></span> &nbsp;   Contáctanos</a></li>
-                    </ul>
+                   </ul>
+                   <ul class="nav navbar-nav navbar-right">
+                      <li id="fla"><a href="#" style="color: white;"><span class="glyphicon glyphicon-log-in"></span> &nbsp;LGBT</a></li>
+                   </ul> 
                 </div>
             </div>
         </nav>
@@ -48,21 +51,22 @@ echo '
 		</video> 
              <div class="header-content-inner">
                 <div class="hidden-xs hidden-sm">
-                        <img class="img-responsive swingimage2" src="../img/logox.png" alt="" style="width: 30%; position:relative;">
+                        <img class="img-responsive swingimage2T" src="../img/logox.png" alt="" style="width: 30%; position:relative;">
                 </div>
                 <div class="hidden-md hidden-lg" align="center">
                     <img class="img-responsive fadein" src="../img/logox.png" alt="" style="width: 70%; position:relative;">
                     <br><br>
                 </div>
-                <h1 id="homeHeading" class="swingimage3" style=" position:relative; padding-top: 5px">Algo diferente</h1>
+                <h1 id="homeHeading" class="swingimage3T" style=" position:relative; padding-top: 5px">Algo diferente</h1>
                 <p>El verdadero sabor del mar en tu mesa</p>
                 <a href="#promo" class="btn btn-primary btn-xl page-scroll fadein hidden-sm hidden-xs" id="btnContinue">Presiona aquí para ver más</a>
                 <a href="#promo" class="btn btn-primary btn-xl page-scroll fadein hidden-md hidden-lg" id="btnContinue">Presiona aquí para ver más</a>
             </div>
         </div>
         <br><br><br><br><br><br>
-        <img class="img-responsive swingimage hidden-xs hidden-sm" src="../img/te.png" alt="" style="width: 40%; position:relative;">
+        <img class="img-responsive swingimageT hidden-xs hidden-sm" src="../img/te.png" alt="" style="width: 40%; position:relative;">
     </header>
+    
 ';
 
 ?>

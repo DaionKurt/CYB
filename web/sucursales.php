@@ -52,28 +52,29 @@ $span=floor(12/$stmnt->rowCount());/**TODO Modificar span**/
             background-color: #ba2b19;
         }
         body{
-            background-image: url("../img/banner-suc2.png");
+            background-image: url("../img/rt.jpg");
             -webkit-background-size: 100% auto;
             background-size: 100% auto;
             background-position: center top;
             background-origin: padding-box;
             background-repeat: no-repeat;
+            background-attachment: fixed;
         }
         @media (min-width: 400px) {
             body {
-                background-image: url("../img/banner-suc2.png");
+                background-image: url("../img/rt.jpg");
             }
         }
 
         @media (min-width: 500px) {
             body {
-                background-image: url("../img/banner-suc2.png");
+                background-image: url("../img/rt.jpg");
             }
         }
 
         @media (min-width: 1000px) {
             body {
-                background-image: url("../img/banner-suc.png");
+                background-image: url("../img/rt.jpg");
             }
         }
     </style>
@@ -82,18 +83,8 @@ $span=floor(12/$stmnt->rowCount());/**TODO Modificar span**/
 <body onload="muestraFuncionGeo('chrome', this); return false;">
 <div class="se-pre-con"></div>
     <?php require('headersecundario.php')?>
-    <div class="hidden-xs hidden-sm hidden-md">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-    <div class="hidden-xs hidden-sm hidden-lg">
-        <br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-    <div class="hidden-xs hidden-md hidden-lg">
-        <br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-    <div class="hidden-sm hidden-md hidden-lg">
-        <br><br><br><br>
-    </div>
+    <img src="../img/banner-suc.png" style="width: 100%; height: auto"></img>
+<br><br>
     <div class="container">
         <div class="row">
             <?php foreach ($stmnt as $row):?>
@@ -106,7 +97,7 @@ $span=floor(12/$stmnt->rowCount());/**TODO Modificar span**/
             <?php endforeach?>
         </div>
         <div class="row">
-            <div class="col-xs-12 panel" id="despliega-sucursal">
+            <div class="col-xs-12 panel" id="despliega-sucursal" style="border: #f17e00 solid 1px">
                 <div class="panel-heading">Lorem ipsum</div>
                 <div class="panel-body"> Dolor et sit amet</div>
             </div>
